@@ -17,5 +17,11 @@ commonly used commands:
     then comment exec /usr/bin/startxfce4 &
     and then
     uncomment #dbus-launch /usr/bin/startxfce4
+    
+    Boundary condition:
+    Ambient layer should be symmetry
+    
+    Multiphase model:
+    Mixture is more stable
 
  
