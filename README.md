@@ -24,4 +24,20 @@ commonly used commands:
     Multiphase model:
     Mixture is more stable
 
- 
+
+# Automation examples:
+Fluent journal scripts for different type of projects
+CFDpost state files
+Structured slides
+Python scripts for data handling (pre/post)
+Geometry templates
+Mesh recording
+Templates in general 
+
+Showcases:
+Fluent journal: hpc, naming in meshes to make consistent cases
+Mesh: Min 
+Python scripts: Giacomo
+CFDpost: python
+Geometry: SCDM
+Communication: make system bullet prrof check with sales team for tips & tricks, Doublt, communicate wisely, check list
