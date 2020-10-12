@@ -23,7 +23,8 @@ commonly used commands:
     
     Multiphase model:
     Mixture is more stable
-$Initialization for industrial project
+    
+# Initialization for industrial project
 1 velocity direction and magnitude should be identical to the high velocity region, such as inner pipes, pumps
 2 Body size should be follow the following: 20-40 layers of mesh along the height, should always define for each major bodies' size even the global size is defined.
 
