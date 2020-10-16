@@ -28,6 +28,13 @@ commonly used commands:
 1 velocity direction and magnitude should be identical to the high velocity region, such as inner pipes, pumps
 2 Body size should be follow the following: 20-40 layers of mesh along the height, should always define for each major bodies' size even the global size is defined.
 
+# Fluent Eulerian + Multi-fluid VOF model
+1 Use the transient model.
+2 Use coupled scheme for pressure-velocity coupling
+2 Select anisotropic-drag for free surface (there is higher drag in the normal direction to the interface and lower drag in the tangential direction to the interface).  
+3 Volume fraction scheme choose Geo-Reconstruct for interface sharpening schemes
+4 use set/model/mp-mfluid-aniso-drag text command to specify the input parameters for anisotropic drag if needed (https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v193/flu_ug/flu_ug_sec_use_ifm.html)
+
 # Automation examples:
 Fluent journal scripts for different type of projects
 CFDpost state files
