@@ -51,3 +51,9 @@ Python scripts: Giacomo
 CFDpost: python
 Geometry: SCDM
 Communication: make system bullet prrof check with sales team for tips & tricks, Doublt, communicate wisely, check list
+
+# Learn PYTHON
+Import problem:
+1 How does python find packages? https://leemendelowitz.github.io/blog/how-does-python-find-packages.html
+2 Unable to import a module that is definitely installed https://stackoverflow.com/questions/14295680/unable-to-import-a-module-that-is-definitely-installed
+3 Python中模块(Module)和包(Package）的区别 https://www.cnblogs.com/JetpropelledSnake/p/8905727.html
