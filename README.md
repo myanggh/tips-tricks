@@ -62,13 +62,15 @@ Communication: make system bullet prrof check with sales team for tips & tricks,
 3 Python中模块(Module)和包(Package）的区别 https://www.cnblogs.com/JetpropelledSnake/p/8905727.html
 
 #Vertual environment
+
 Even there is a lot of pakeages in system level python environment, the virtual enviroment is necessary for every single python project to install some specific packeages through pip command. 
 
 1 anaconda environment
+
 #conda method in anaconda
 conda create -n kernelname python=xx.xx
 activate kernelname
-
+deactivate
 
 #check environment
 import sys
@@ -80,6 +82,7 @@ python -m ipykernel install --user -name kernelname
 
 
 2 command prompt environment
+
 Youtube channel: https://www.youtube.com/watch?v=APOPm01BVrk
 
 #pip method in command prompt
