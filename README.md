@@ -53,10 +53,62 @@ Geometry: SCDM
 Communication: make system bullet prrof check with sales team for tips & tricks, Doublt, communicate wisely, check list
 
 # Learn PYTHON
-Import problem:
+#Import problem:
 
 1 How does python find packages? https://leemendelowitz.github.io/blog/how-does-python-find-packages.html
 
 2 Unable to import a module that is definitely installed https://stackoverflow.com/questions/14295680/unable-to-import-a-module-that-is-definitely-installed
 
 3 Python中模块(Module)和包(Package）的区别 https://www.cnblogs.com/JetpropelledSnake/p/8905727.html
+
+#Vertual environment
+Even there is a lot of pakeages in system level python environment, the virtual enviroment is necessary for every single python project to install some specific packeages through pip command. 
+
+1 anaconda environment
+#conda method in anaconda
+conda create -n kernelname python=xx.xx
+activate kernelname
+
+
+#check environment
+import sys
+print '\n'.join(sys.path)
+
+#Installing a Python Kernel to Jupyter
+pip install ipykernel
+python -m ipykernel install --user -name kernelname
+
+
+2 command prompt environment
+Youtube channel: https://www.youtube.com/watch?v=APOPm01BVrk
+
+#pip method in command prompt
+pip list #Time 2:13
+python -m venv project_env #Time 2:29
+project_env\Scripts\activate.bat #Time 3:24
+where python #Time 3:46
+pip install requests #Time 4:48
+pip install pytz #Time 5:00
+pip list #Time 
+pip freeze #Time 5:47
+ --#Time copy information 'pip freeze'
+ --#Time create requirements.txt #Time 6:37
+ --#Time paste information there
+deactivate #Time 7:16
+rmdir project_env /s #Time 7:33
+
+mkdir my_project #Time 8:48
+python -m venv my_project\venv #Time 8:55
+my_project\venv\Scripts\activate.bat
+pip install -r requirements.txt #Time 9:46
+cd my_project #Time 10:50
+ --#Time create new file 'script.py'
+deactivate #Time 
+rmdir venv /s #Time
+python -m venv venv --system-site-packages #Time 13:30
+venv\Scripts\activate.bat #Time 
+pip list #Time
+pip install SQLAlchemy
+pip list --local
+
+
