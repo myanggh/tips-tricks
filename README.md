@@ -28,6 +28,15 @@ commonly used commands:
 1 velocity direction and magnitude should be identical to the high velocity region, such as inner pipes, pumps
 2 Body size should be follow the following: 20-40 layers of mesh along the height, should always define for each major bodies' size even the global size is defined.
 
+# Initialization methods
+1 define a proper inlet turbulent parameter (k, e is the most appropriate inlet boundary). Set a higher Turbulent Viscosity Ratio (can be 10-100 for internal flow) at the inlet boundary, the smaller the specific dissipation rate at initialization console will appear while the Turbulent Kinetic Energy will remain the same. On the other hand, Turbulent Intensity (5% is normally suitable) at the inlet is positively correlated to both the Turbulent Kinetic Energy and specific dissipation rate at initialization console.  
+2 initial start from the inlet, give a run. And see what happens. If the residuel stay high and steady, you can change the initial turbulent values, and give another run.
+3 If the step 2 didn't work, switch to transient simulation, and wait until the residuel decrease and keep steady.
+
+# Wall treatment and wall functions
+
+
+
 # Fluent Eulerian + Multi-fluid VOF model
 1 Use the transient model.
 2 Use coupled scheme for pressure-velocity coupling
