@@ -24,6 +24,11 @@ commonly used commands:
     Multiphase model:
     Mixture is more stable
     
+# Bubble column
+1 inlet turbulence matters when the inlet velocity is low or the area is large. But it is not the decisive factor. Pay a bit attention to it and comply the ansys help wrt the boundary condition.
+2 Use very fine mesh seems to give a very stable solution for two D problem. When the y+ is about 1, The k-e, k-w and RSM model all generate the similar results. But fine mesh seems not work for 3D problem to generate stable solution.
+3 For 3D problem, use transient to start the simulation, and switch to steady state when the bubble emerges (sometimes when the air flowrate is very low, it may take hundred iterations). Normally, you will get a stable solution if the wall function is correctly considered, and most of the time, if a coarse mesh is used. But if the steady state simulation didn't give a stable solution, then switch to transient again after a psuedo steady state reached.
+    
 # Initialization for industrial project
 1 velocity direction and magnitude should be identical to the high velocity region, such as inner pipes, pumps
 2 Body size should be follow the following: 20-40 layers of mesh along the height, should always define for each major bodies' size even the global size is defined.
