@@ -133,7 +133,7 @@ pip install SQLAlchemy
 pip list --local
 
 3 New knowledge
-(1) There are three types of variables commonly used: string, number, True/False.
+(1) There are three types of variables commonly used: string, number, True/False./n
 (2) String is awesome. Pay attaition to string_name.index("a"), string_name.replace("a","b"), and string_name[0]. The first gives the index number of the a in the string, the second replaces a with b, the third the latter gives the first letter of the string.
 (3) Numbers is awesome. Use from math import * to get access to mathmatic functions such as sqrt, floor, sin.
 (4) Variables type is defined using int(a), float(b), double(c)..
