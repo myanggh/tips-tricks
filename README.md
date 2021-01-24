@@ -133,12 +133,50 @@ pip install SQLAlchemy
 pip list --local
 
 3 New knowledge
-(1) There are three types of variables commonly used: string, number, True/False./n
-(2) String is awesome. Pay attaition to string_name.index("a"), string_name.replace("a","b"), and string_name[0]. The first gives the index number of the a in the string, the second replaces a with b, the third the latter gives the first letter of the string.
-(3) Numbers is awesome. Use from math import * to get access to mathmatic functions such as sqrt, floor, sin.
-(4) Variables type is defined using int(a), float(b), double(c)..
-(5) Use Input("user information") to input user information.
-(6) Build a calculator. A calculator normally is the main part of a function.
-(7) Mad lib game.
- 
+(1) There are three types of variables commonly used: string, number, and boolean variable True/False.
 
+(2) String is awesome. Pay attaition to string_name.index("a"), string_name.replace("a","b"), and string_name[0]. The first gives the index number of the a in the string, the second replaces a with b, the third the latter gives the first letter of the string.
+
+(3) Numbers is awesome. Use from math import * to get access to mathmatic functions such as sqrt, floor, sin.
+
+(4) Variables type is defined using int(a), float(b), double(c)...
+
+(5) Use Input("user information") to input user information.
+
+(6) Build a calculator. A calculator normally is the main part of a function.
+
+(7) Mad lib game.
+
+(8) List and list functions， List_name[]. List_name.append(), List_name.remove(), List_name.extend(), List_name.append(), List_name.count(), List_name.sort(), List_name.reverse(), List_name.copy()
+
+(9) Tuples, tuple_name(). Tuple is inmutable, it can't be changed. It is usually used to list that don't need to be changed.
+
+(10) Function, def (parameters).
+
+(11) If statement, if condition:. The content followed by the If statement should have indentation. The line without indentation will be regarded as out of the function.
+ 
+(12) Function + if statement to build a smarter calculator. The user input the number and operator, the function to calculate the formula.
+
+(13) Dictionary is awesome to assign parameters.
+
+(14) While loop. Build a guessing game.
+
+(15) For loop is awesome. Loop over different arrays, numbers. Build a exponent function.
+
+(16) 2D lists & nested loops. you can name the variables in the for loop.
+
+(17) Inherentance. 
+
+(18) Python interpretor. It used to quick test a few script instead of using a text editor.
+
+(17) Build a translator. while loop + for loop. Understand the variables in the for loop and while loop. .lower, .isupper are given by Python. 
+
+(18) Read and write files.
+
+(19) Module and pip.
+
+(20) Class and objects is super useful, class is a data type that used in almost every language. Object is the name of the data type. Creat your own data type.
+
+(21) Create a quiz game. class + loop functions.
+
+(22) Object function.
